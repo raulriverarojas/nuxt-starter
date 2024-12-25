@@ -2,7 +2,7 @@
 
 <template>
   <div>
-    Layout: browser
+    <Nav />
     <slot />
   </div>
 </template>

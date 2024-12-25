@@ -2,7 +2,7 @@
 
 <template>
   <div>
-    Layout: mobile
+    <MobileNav />
     <slot />
   </div>
 </template>
