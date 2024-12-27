@@ -6,7 +6,7 @@
         
         <div class="form-control">
           <label class="label">
-            <span class="label-text">username</span>
+            <span class="label-text">Username</span>
           </label>
           <input type="username" v-model="username" required class="input input-bordered" placeholder="Enter your username" />
         </div>

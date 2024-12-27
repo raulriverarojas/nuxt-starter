@@ -4,8 +4,11 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/device'],
   runtimeConfig: {
-  public: {
-    backend: process.env.BACKEND // Publicly accessible
+    public: {
+      backend: process.env.BACKEND // Publicly accessible
     }
   },
+  plugins: [
+       { src: '~/plugins/d3.js', ssr: false } // Disable SSR for this plugin
+  ]
 })
